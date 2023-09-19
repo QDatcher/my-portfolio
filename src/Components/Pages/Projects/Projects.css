@@ -1,0 +1,16 @@
+.experience-container {   
+    margin: 20px 10px;
+    min-height: 700px;
+}
+
+.figure {
+    border: 2px solid var(--color3);
+  
+}
+
+.experience-figures-small {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

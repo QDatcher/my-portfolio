@@ -1,0 +1,204 @@
+
+:root {
+    --backgroundColor1: black;
+    --styleColor1: orange;
+    --styleColor2: red;
+    --color1: rgba(0, 16, 17, 1);
+    --color2: rgba(9, 58, 62, 1);
+    --color3: rgba(58, 175, 185, 1);
+    --color4: rgba(100, 233, 238, 1);
+    --color5: rgba(151, 200, 235, 1);
+    }
+    
+h2 {
+    font-family: Orbitron;
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 0px;
+    margin-bottom: 30;
+    color: var(--color3)
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    font-family: Lobster;
+    font-size: 1.5em;
+    color: var(--styleColor1);
+}
+
+.about-container {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+/* This aspect of the about section should be on the left side contained in a bubble */
+.about-section {
+    width: 50%;
+    margin: 0 30px;
+}
+.about-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 700px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: var(--color5);
+    background-color: var(--color4);
+    border-radius: 10%;
+    border: 3px solid var(--color3) ;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.about-content p, .about-content ul {
+    margin: 2% 7%;
+    font-family: 'Josefin Sans';
+    color:whitesmoke;
+    flex-shrink: 1;
+}
+
+.main-photo {
+    max-width: 40%;
+    display: inline-block;
+    margin: 20px 0px 20px 5%;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.main-photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inline {
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 15px;
+}
+
+.inline br {
+    line-height: 300px;
+}
+
+.block {
+    display: block;
+    margin-top: 10px 15px;
+}
+
+.about-content{
+    background-image: url('../../../pics/stars.png');
+    
+}
+
+/* This part of the about section should be on the right side and will be contained in a bubble */
+.hobbies-section {
+    width: 45%;
+    margin: auto 0px;
+}
+
+.hobbies-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    background-image: url('../../../pics/ryan-hutton-Jztmx9yqjBw-unsplash.jpg');
+    background-position: center;
+    flex-grow: 1;
+    border-radius: 10%;
+    border: 3px solid var(--color3) ;
+    align-content: space-around;
+ }
+ 
+ 
+ .hobbies-description h3{
+    text-align: center;
+ }
+ 
+ 
+ 
+ .hobbies-container figure {
+    max-width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: 20px auto;
+    
+ }
+ 
+ .hobbies-container figure figcaption {
+     margin: 10px 20px;
+     color: whitesmoke;
+     font-family: 'Josefin Sans';
+     text-align: center;
+ }
+ 
+ 
+ .first-hobby{
+     
+     grid-row-start: 1;
+     grid-row-end: 2;
+ }
+ 
+ .first-hobby iframe {
+     margin: 0px auto;
+     width: 50%;
+     min-height: 250px;
+ }
+ 
+ .second-hobby {
+     grid-row-start: 2;
+     grid-row-end: 3;
+ }
+ .second-hobby video {
+     margin: 0 auto;
+     width: 50%;
+     height: auto;
+ }
+
+ .hobbyName {
+    color: orange;
+    font-weight: bold;
+ }
+ 
+ @media screen and (max-width: 700px){
+
+    .about-content{
+        display: block;
+    }
+
+    .main-photo {
+        display: block;
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .inline {
+        text-align: center;
+        max-width: 80%;
+        display: block;
+        margin: 15px auto;
+    }
+
+}
+
+@media screen and (max-width: 1327px) {
+    
+    .about-container, .hobbies-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hobbies-container {
+        margin-top: 100px;
+    }
+    
+}

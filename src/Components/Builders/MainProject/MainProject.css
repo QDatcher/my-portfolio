@@ -1,0 +1,18 @@
+.experience-figure-1 {
+    width: 60%;
+    margin: 10px auto;
+    align-self: center;
+    display: block;
+    min-width: 500px;
+    padding: 15px;
+}
+
+
+.figure {
+    border: 2px solid var(--color3);
+  
+}
+
+.github {
+    color: orange;
+}

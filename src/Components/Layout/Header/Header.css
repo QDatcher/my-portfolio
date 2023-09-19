@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: black;
+    /* color: aliceblue; */
+    height: 7vh;
+}
+
+.logo-container {
+    height: 120%
+}
+
+.logo {
+    max-width:100%;
+    max-height:100%;
+    
+}
+
+nav {
+    width: 40%;
+    display: grid;
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-decoration: none;    
+}
+
+.navEndPoint {
+    text-decoration:dashed;
+    font-size: 1.2em;
+    color: aliceblue;
+    align-self: center;
+    justify-self: center;
+    margin: 0 5px;
+}
+.navEndPoint:hover {
+    
+    color: orange;
+}
+
+.navEndPoint NavLink:hover {
+    color: green;
+}
