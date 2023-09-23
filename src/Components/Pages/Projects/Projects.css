@@ -14,3 +14,17 @@
     justify-content: center;
 
 }
+
+@media screen and (max-width: 700px){
+    .experience-figures-small, .mainProject-container {
+        width: 90%;
+    }
+    .experience-figures-small figure {
+        min-width: 0px;
+        max-width: 500px;
+        max-height: 1000px;
+        margin: auto;
+    }
+        
+  
+  }

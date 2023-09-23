@@ -46,3 +46,14 @@
 .github {
     color: orange;
 }
+
+@media screen and (max-width: 700px){
+    .experience-figures-small figure {
+        min-width: 200px;
+        max-width: 500px;
+        max-height: 1000px;
+        margin: 30px auto;
+    }
+        
+  
+  }

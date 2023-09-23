@@ -1,14 +1,21 @@
+html {
+    width: 100%;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 1%;
     background-color: black;
     /* color: aliceblue; */
-    height: 7vh;
+    height: 10vh;
 }
 
 .logo-container {
-    height: 120%
+    height: 100%;
+    flex-shrink: 1;
+    margin-right: 50px;
 }
 
 .logo {
@@ -27,7 +34,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    text-decoration: none;    
+    text-decoration: none;
+    width: 100%;    
 }
 
 .navEndPoint {
@@ -45,4 +53,42 @@ nav ul {
 
 .navEndPoint NavLink:hover {
     color: green;
+}
+
+@media screen and (max-width: 1100px) {
+    nav {
+        
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        padding: 0;
+        font-size: .6em;
+    }
+    
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+    .header {
+        padding: 0;
+        font-size: 1em;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+    }
+    nav ul {
+        width: 100%;
+    }
+    .logo-container {
+        display: none;
+    }
+    
+    .navEndPoint {
+        font-size: 1em;
+    }
 }

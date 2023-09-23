@@ -16,3 +16,17 @@
 .github {
     color: orange;
 }
+
+@media screen and (max-width: 700px){
+  .experience-figure-1 {
+    width: 90%;
+    }
+  .experience-figure-1 {
+    min-width: 0px;
+        max-width: 500px;
+        max-height: 1000px;
+        margin: auto;
+  }
+      
+
+}
