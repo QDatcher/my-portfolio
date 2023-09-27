@@ -28,6 +28,7 @@ if (process.env.NODE_ENV === 'production') {
 
 
   const startApolloServer = async () => {
+    console.log(process.env)
     await server.start();
     server.applyMiddleware({ app });
     
