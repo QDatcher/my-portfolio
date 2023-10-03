@@ -1,3 +1,12 @@
+.work-header {
+    font-family: Orbitron;
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 0px;
+    margin-bottom: 30;
+    color: var(--color3)
+}
+
 .page-container {
     width: 100vw;
 }

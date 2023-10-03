@@ -64,7 +64,7 @@ const Projects = () => {
     
     return (
         <section className='experience-container'>
-            <h2>Projects</h2>
+            <h2 className='project-header'>Projects</h2>
             <div className='mainProject-container'>
                 <MainProject 
                     siteLink={mainProject.siteLink} 
