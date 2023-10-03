@@ -15,6 +15,7 @@
     margin: 10em auto;
     align-items: start;
     align-content: start;
+    max-width: 100%;
 }
 
 .work-history {
@@ -41,6 +42,7 @@
     border: 3px solid var(--color3) ;
     margin-left: 30px;
     width: 80%;
+    max-width: 100%;
     font-family: 'Josefin Sans'; 
 }
 
@@ -100,10 +102,12 @@
 .table-container {
     margin: 0 auto;
     width: 90%;
+    max-width: 90%;
 }
 
 .table {
-    width: 100%;
+    max-width: 90%; 
+    margin: 0 auto;
 }
 
 .table, .table th, .table td {
@@ -199,5 +203,14 @@ a:hover {
     
     .gleap-video-container iframe {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .table, .table th, .table td {
+    
+        border: 1px orange solid;
+        padding: 10px;
+        
     }
 }

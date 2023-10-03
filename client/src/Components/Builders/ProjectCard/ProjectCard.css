@@ -11,8 +11,9 @@
 .figure {
     min-width: 40%;
     max-width: 500px;
+    min-height: 450px;
     max-height: 1000px;
-    margin: 100px auto;
+    margin: 50px 30px;
 }
 
 .img-container {
@@ -55,6 +56,7 @@
         min-width: 200px;
         max-width: 500px;
         max-height: 1000px;
+        height: auto;
         margin: 30px auto;
     }
         
