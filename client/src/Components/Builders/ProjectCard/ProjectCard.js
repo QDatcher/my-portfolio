@@ -5,7 +5,7 @@ const ProjectCard = ({siteLink,imgAlt,sitImgSrc,siteTitle,githubLink, descriptio
 
 
     return (
-        <>
+        <div className='figure-container'>
             <figure className='figure'>
                 <div className="img-container">
                     <a target="_blank" rel="noreferrer"  href={siteLink}><img alt={imgAlt} className="experience-photo" src={require(`../../../pics/${sitImgSrc}`)} /></a>
@@ -17,7 +17,7 @@ const ProjectCard = ({siteLink,imgAlt,sitImgSrc,siteTitle,githubLink, descriptio
                     </ul>
                 </figcaption>
             </figure>
-        </>
+        </div>
     )
 }
 

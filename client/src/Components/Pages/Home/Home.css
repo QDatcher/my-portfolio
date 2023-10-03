@@ -29,7 +29,7 @@ h3 {
 }
 
 .home-container {
-    width: 100%;
+    max-width: 100%;
 }
 
 .about-container {

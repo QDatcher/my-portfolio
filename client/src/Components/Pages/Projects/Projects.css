@@ -10,6 +10,7 @@
 .experience-container {   
     margin: 20px 10px;
     min-height: 700px;
+    max-width: 100vw;
 }
 
 .figure {
@@ -17,16 +18,22 @@
   
 }
 
+.mainProject-container {
+    
+    margin: 0 auto;
+}
+
 .experience-figures-small {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 
 }
 
 @media screen and (max-width: 700px){
     .experience-figures-small, .mainProject-container {
-        width: 90%;
+        max-width: 100%;
     }
     .experience-figures-small figure {
         min-width: 0px;

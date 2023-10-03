@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 import ProjectCard from '../../Builders/ProjectCard/ProjectCard';
 import MainProject from '../../Builders/MainProject/MainProject';
+import './Projects.css';
 
 const Projects = () => {
    
