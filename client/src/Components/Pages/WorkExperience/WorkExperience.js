@@ -75,7 +75,7 @@ const WorkExperience = () => {
     
     return (
         <div className='page-container'>
-            <h2 work-header>WorkExperience</h2>
+            <h2 className='work-header'>WorkExperience</h2>
             <section className='work-experience-container'>                
                 <section className='work-history'>
                     <h3>Past Employment</h3>
